@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  padding: 10px 30px;
+  font-family: Arial, sans-serif;
+  height: 100vh;      
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; /
+}
+
+.cv-container {
+  display: grid;
+  grid-template-rows: repeat(5, auto); 
+  gap: 5px; 
+}
+
+
+section, header {
+  border-bottom: 1px solid #000;
+  padding: 7.5px 0; 
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 1.8em; 
+}
+
+h2 {
+  margin: 0; 
+  font-size: 1em;   
+  line-height: 1.1;
+}
+
+
+p, ul, li {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;  
+  line-height: 1.2; 
+}
+
+ul {
+  list-style-position: inside;
+  margin-top: 2px; 
+}
+
+
